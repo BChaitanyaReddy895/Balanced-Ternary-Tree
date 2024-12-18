@@ -120,11 +120,10 @@ void freeTree(TernaryNode* root) {
 // Main function
 int main() {
 	TernaryNode* root = NULL;
-	// Insert elements
 	root = insert(root, 10);
 	root = insert(root, 20);
 	root = insert(root, 5);
-	root = insert(root, 10); // Duplicate keys go to the middle
+	root = insert(root, 10); 
 	root = insert(root, 15);
 	root = insert(root, 25);
 	printf("In-order traversal of the balanced ternary tree:\n");
